@@ -1,0 +1,20 @@
+[project]
+title = "Pavement condition exploration"
+version = "0.1.0"
+port = 8501
+slug = "bitflip-741973"
+entrypoint = "hello.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/my-custom-favicon.ico"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/ESC 12 Pavement Dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
